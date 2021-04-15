@@ -1,16 +1,17 @@
-# Project Name
-Project description
+# Search OpCon properties
+Searches OpCon for a property and displays the location/usage in the output
+
+# Prerequisites
+-OpCon 18.3+
+-OpCon SQL Agent (to run script, or through other means like sqlcmd, powershell etc)
+
+# Instructions
+Set the OpCon database name at the top of the script after the "Use" statement.  Then simply define the property name you wish to search for on the line "set @property = ".
 
 # Disclaimer
 No Support and No Warranty are provided by SMA Technologies for this project and related material. The use of this project's files is on your own risk.
 
 SMA Technologies assumes no liability for damage caused by the usage of any of the files offered here via this Github repository.
-
-# Prerequisites
-
-
-# Instructions
-
 
 # License
 Copyright 2019 SMA Technologies
